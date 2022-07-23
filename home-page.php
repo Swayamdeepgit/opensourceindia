@@ -209,7 +209,7 @@ get_header(); ?>
                                 </div>
                                 <div class="col-md-11 mx-auto py-3">
                                     <p class="h5 post-para">
-                                        <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
+                                        <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?>&nbsp;<?php the_title(); ?></a>
                                     </p>
                                     <p class="h5 interview text-muted"><?php $expert=get_the_excerpt();  echo $expert;?></p>
 
